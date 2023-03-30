@@ -1,0 +1,10 @@
+<p>Are you sure you want to delete "{{this_item}}" ?</p>
+<a href="{% url 'list' %}"> cancel </a>
+
+
+<!--action left blank because it is redirecting to same/current url--> 
+<form method="POST" action="">
+    {% csrf_token %}
+    <input type="submit" name="confirm">
+
+</form>
