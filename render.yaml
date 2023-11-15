@@ -1,0 +1,5 @@
+services:
+  - name: web
+    envVars:
+      - key: venv
+        value: 8000
