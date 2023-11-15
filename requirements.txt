@@ -1,3 +1,4 @@
 asgiref==3.7.2
 Django==3.1.14
 sqlparse==0.4.4
+python-dotenv==0.16.0
